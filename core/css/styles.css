@@ -28,7 +28,7 @@
 /* log in screen background color and image */
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
-#body-login {
+#body-login-deactivated {
 	/* Login background image */
 	background-image: url("../img/background.jpg") !important;
 	background-position: center;
