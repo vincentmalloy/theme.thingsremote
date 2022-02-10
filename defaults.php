@@ -25,7 +25,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://owncloud.org';
+		return 'https://cloud.things-remote.com';
 	}
 
 	/**
@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Custom Cloud - Custom Claim';
+		return 'Things Remote';
 	}
 
 	/**
@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Custom Cloud';
+		return 'Things Remote';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return '<b>Custom</b> Cloud';
+		return 'Things Remote';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'Custom Cloud Co.';
+		return 'Simon';
 	}
 
 	/**
@@ -105,7 +105,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Your custom cloud, personalized for you!';
+		return '“As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts.” - Herman Melville, Moby Dick or, the Whale';
 	}
 
 	/**
@@ -113,7 +113,8 @@ class OC_Theme {
 	 * @return string logo claim
 	 */
 	public function getLogoClaim() {
-		return '<a href="https://example.com">Custom Claim</a>';
+		// return '<a href="https://example.com">Custom Claim</a>';
+		return '';
 	}
 
 	public function getPrivacyPolicyUrl() {
@@ -144,6 +145,8 @@ class OC_Theme {
 		$l10n = $this->getL10n();
 		$footer = '© '.date("Y").' <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
 			'<br/>' . $this->getSlogan();
+		// override
+		$footer = $this->getSlogan();
 		if ($this->getImprintUrl() !== '') {
 			$footer .= '<span class="nowrap"> | <a href="' . $this->getImprintUrl() . '" target="_blank">' . $l10n->t('Imprint') . '</a></span>';
 		}
@@ -162,6 +165,8 @@ class OC_Theme {
 		$l10n = $this->getL10n();
 		$footer = '© '.date("Y").' <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
 			'<br/>' . $this->getSlogan();
+		// override
+		$footer = $this->getSlogan();
 		if ($this->getImprintUrl() !== '') {
 			$footer .= '<span class="nowrap"> | <a href="' . $this->getImprintUrl() . '" target="_blank">' . $l10n->t('Imprint') . '</a></span>';
 		}
@@ -182,7 +187,7 @@ class OC_Theme {
 	 * @return string
 	 */
 	public function getMailHeaderColor() {
-		return '#745bca';
+		return '#212121';
 	}
 
 }
