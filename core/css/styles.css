@@ -51,16 +51,16 @@
 /* >= ownCloud 10.8 - login button */
 /* styling of the login button which was introduced with ownCloud 10.8 */
 #alternative-logins li a.button, html #body-login input[type="submit"], html #body-login button[type="submit"] {
-  background-color: #745bca;
+  background-color: #535353;
   color: #fff; /* color of the text */
-  border: 1px solid #fff;
+  border: 1px solid #272727;
 }
 
 /* style for the hovered state of the button */
 #alternative-logins li a.button:hover, html #body-login input[type="submit"]:hover, html #body-login button[type="submit"]:hover {
-	background-color: #947bea;
+	background-color: #676767;
 	color: #fff; /* color of the text */
-  border: 1px solid #fff;
+  border: 1px solid #272727;
 }
 
 /* primary action button, use sparingly */
