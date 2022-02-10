@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<info>
+	<id>thingsremote</id>
+	<name>things remote theme</name>
+	<description>this app provides my things remote theme</description>
+	<licence>AGPL</licence>
+	<author>Simon Lundius</author>
+	<version>1.0.0</version>
+	<types>
+		<theme/>
+	</types>
+	<dependencies>
+		<owncloud min-version="10.2" max-version="10" />
+	</dependencies>
+	<namespace>Theme</namespace>
+</info>
