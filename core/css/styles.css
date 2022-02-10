@@ -75,8 +75,8 @@ input[type="submit"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-	border-color: #745bca;
-	background-color: #947bea;
+	border-color: #272727;
+	background-color: #535353;
 }
 .primary:hover,
 input[type="submit"].primary:hover,
@@ -88,13 +88,13 @@ input[type="submit"].primary:focus,
 input[type="button"].primary:focus,
 button.primary:focus,
 .button.primary:focus {
-	background-color: #8b75e4;
+	background-color: #656565;
 }
 .primary:active, input[type="submit"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active,
 .primary:disabled, input[type="submit"].primary:disabled, input[type="button"].primary:disabled, button.primary:disabled, .button.primary:disabled,
 .primary:disabled:hover, input[type="submit"].primary:disabled:hover, input[type="button"].primary:disabled:hover, button.primary:disabled:hover, .button.primary:disabled:hover,
 .primary:disabled:focus, input[type="submit"].primary:disabled:focus, input[type="button"].primary:disabled:focus, button.primary:disabled:focus, .button.primary:disabled:focus {
-	background-color: #745bca;
+	background-color: #959595;
 }
 
 /* use logos from theme */
