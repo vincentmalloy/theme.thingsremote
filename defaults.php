@@ -105,7 +105,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return '“As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts.” - Herman Melville, Moby Dick or, the Whale';
+		return '“As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts.”<span class="footer--small"> - Herman Melville, Moby Dick or, the Whale</span>';
 	}
 
 	/**
